@@ -33,4 +33,4 @@ The designed RAM performs efficiently due to its synchronous operation and simpl
 
 *OUTPUT*:
 
-![Image](https://github.com/user-attachments/assets/2c086f1d-6e14-430f-b32b-92d43aa44684)
+
