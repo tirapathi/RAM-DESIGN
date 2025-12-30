@@ -25,8 +25,12 @@ A comprehensive Verilog testbench was created to verify correct RAM functionalit
 Waveform simulations in tools such as Vivado Simulator clearly show write events happening at rising clock edges, followed by correct read-back data. The simulation validates that the internal memory array correctly retains values and that data output transitions occur synchronously. This verification process ensures that both functional correctness and timing behavior meet design expectations.
 
 Tools Used
+
 The RAM was coded in Verilog HDL, which synthesizes efficiently on most FPGA platforms. For simulation, standard tools such as Vivado can be used. These tools provide waveform viewers, memory inspectors, and debugging consoles that help confirm design correctness. On FPGA hardware, the RAM can be synthesized using Xilinx Vivado where block RAM resources (BRAM) can be inferred from the HDL code.
 
 Performance Analysis
 The designed RAM performs efficiently due to its synchronous operation and simple architecture. Latency equals one clock cycle since both read and write operations occur only on clock edges. Throughput is one operation per cycle, making it suitable for high-speed digital systems. Since the RAM is implemented as registers, it offers high access speed but uses more hardware resources compared to large block RAMs. Power consumption remains low due to reduced switching activity inside the controlled synchronous design. This makes the RAM suitable for small embedded systems, memory buffers, or instruction storage.
 
+*OUTPUT*:
+
+![Image](https://github.com/user-attachments/assets/2c086f1d-6e14-430f-b32b-92d43aa44684)
