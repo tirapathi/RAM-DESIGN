@@ -1,15 +1,5 @@
 # RAM-DESIGN
 
-*COMPANY*: CODTECH IT SOLUTIONS PVT LTD
-
-*NAME*: GUJJULA TIRUPATHI REDDY
-
-*INTERN ID*: CTIS0865
-
-*DOMAIN*: VLSI
-
-*DURATION*: 24 WEEKS
-
 *DESCRIPTION*:
 Random Access Memory (RAM) is a fundamental memory element used in digital systems for temporary data storage and fast data retrieval. In processors, microcontrollers, and FPGA-based systems, RAM enables efficient program execution by storing intermediate values, instructions, and data. In this project, a simple synchronous RAM was designed using Verilog along with its testbench and simulation results. The purpose of this project was to understand memory architecture, read/write operations, synchronous behavior, and functional verification using HDL simulation tools.
 
